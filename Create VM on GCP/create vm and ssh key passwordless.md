@@ -1,6 +1,6 @@
-# Create VM on GCP ([What is VM ?](https://cloud.google.com/learn/what-is-a-virtual-machine)) and set-up SSH-Key for Passwordless login 
+# Create VM on GCP and set-up SSH-Key for Passwordless login 
 
-### Create VM on GCP
+### Create VM on GCP ([What is VM ?](https://cloud.google.com/learn/what-is-a-virtual-machine))
   1. Create account on Google Cloud Platform / GCP ([you can go to this link](#))
   2. Go to GCP console<br />
     <img src="images/1. Click Console Console.png" height="50" />
