@@ -46,7 +46,7 @@
         <img src="images/12. Save Public and Private key in the local directory.png" height="50" />
         
       -  Set "Key Comment" to your prefered user, for this case I'm using "root" user, and Copy the public key<br />
-        <img src="images/ 13. Copy Public Key.png" height="50" />        
+        <img src="images/13. Copy Public Key.png" height="50" />        
      
   6. Add Public key to VM - GCP
       -  Go to your VM on GCP, and choose edit Instance<br />
