@@ -6,7 +6,7 @@
   - [Create VM in GCP and Create SSH key for Passwordless Login](https://github.com/cloud1mahardianyusuf/de-zoomcamp-documentation/blob/main/Create%20VM%20on%20GCP/create%20vm%20and%20ssh%20key%20passwordless.md)
   - Install Docker
       -  (Optional) Change Docker root Directory to spesific path and specify pool internal IP
-          -  Create new json file in /var/docker/daemon.json, and add this configuration to change internal Pool IP and Docker Root Directory
+          -  Create new json file in ***/var/docker/daemon.json***, and add this configuration to change internal Pool IP and Docker Root Directory
              ```
               {
               	"bip": "179.179.0.1/16",
