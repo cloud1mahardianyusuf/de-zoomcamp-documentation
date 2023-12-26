@@ -32,6 +32,7 @@
             <img src="images/8. Add New Disk.png" height="50" /><br />
             <img src="images/9a. Detail add new Disk -1.png" height="50" /><br />
             <img src="images/9a. Detail add new Disk -2.png" height="50" />
+          -  [Mounting new disk to Directory](https://github.com/cloud1mahardianyusuf/de-zoomcamp-documentation/blob/main/Create%20VM%20on%20GCP/Format%20disk%20and%20mount%20to%20directory.md)
             
 ### Set up SSH-key for passwordless login
   5. Create private key and public key using tools MobaXTerm (putty alternative)
