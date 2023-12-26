@@ -65,7 +65,7 @@
         
       -  SetUp Config SSH for your VM - GCP<br />
         <img src="images/19a. Setting Credentials for SSH to your VM.png" height="50" /><br />
-        <img src="images/19b. Setting Credentials for SSH to your VM.png.png" height="50" />
+        <img src="images/19b. Setting Credentials for SSH to your VM.png" height="50" />
         
       -  Connect SSH<br />
         <img src="images/20. Connect SSH.png" height="50" />
