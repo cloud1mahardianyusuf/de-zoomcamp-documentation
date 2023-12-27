@@ -15,7 +15,7 @@
              ```
       -  Copy ***get-docker.sh*** file from this repo, or download it from official docker website using curl
           ```
-          curl -fsSL https://get.docker.com -o get-docker.sh
+          sudo curl -fsSL https://get.docker.com -o get-docker.sh
           ```
       -  Run the sh file
           ```
