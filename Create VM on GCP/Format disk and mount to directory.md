@@ -26,7 +26,7 @@
     -  ```
        pvcreate /dev/sdb1
        vgcreate data /dev/sdb1
-       lvcate -n data -l 100%FREE data /dev/sdb1
+       lvcreate -n data -l 100%FREE data /dev/sdb1
        mkfs.xfs /dev/data/data
        ```
       <img src="images/x5. Create physical, volume group, logical volume, and format disk to XFS.png" height="50" />
