@@ -8,7 +8,7 @@
 
 3.  Format Disk
     -  ```
-       fdisk /dev/sdb
+       sudo fdisk /dev/sdb
        n
        <enter for default>
        <enter for default>
@@ -24,23 +24,26 @@
 
 4.  Create New Physical Volume ([pvcreate](https://www.thegeekdiary.com/pvcreate-command-examples-in-linux/)), Volume Group ([vgcreate](https://www.thegeekdiary.com/vgcreate-command-examples-in-linux/)), and Format Disk to XFS ([lvcreate](https://www.thegeekdiary.com/lvcreate-command-examples-in-linux/))
     -  ```
-       pvcreate /dev/sdb1
-       vgcreate data /dev/sdb1
-       lvcreate -n data -l 100%FREE data /dev/sdb1
-       mkfs.xfs /dev/data/data
+       sudo pvcreate /dev/sdb1
+       sudo vgcreate data /dev/sdb1
+       sudo lvcreate -n data -l 100%FREE data /dev/sdb1
+       sudo mkfs.xfs /dev/data/data
        ```
       <img src="images/x5. Create physical, volume group, logical volume, and format disk to XFS.png" height="50" />
 
 5.  Create new Directory and Mounting Logical Volume to spesific directory
     -  ```
-       mkdir /data
-       mount /dev/data/data /data
+       sudo mkdir /data
+       sudo mount /dev/data/data /data
        ```
       <img src="images/x6. Mounting Logical Volume to Directory.png" height="50" />
 
 6.  Save Mounting Logical Volume [fstab](https://en.wikipedia.org/wiki/Fstab)
     -  ```
-       vim /etc/fstab
+       sudo vim /etc/fstab
+       ```
+    -  Add this line to /etc/fstab
+       ```
        /dev/data/data			/data				xfs			default					0 0
        ```
       <img src="images/x7. Edit the FSTAB for permanent mounting logical volume to directory.png" height="50" />
